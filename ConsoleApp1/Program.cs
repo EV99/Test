@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static Func<int, int, int, int> add = (a, b, c) => a + b + c;
 
-        //int a = add(1, 2, 3);
+        int a = add(1, 2, 3);
 
         static int b = 1;
         static int c = 2;
